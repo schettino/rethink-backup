@@ -11,4 +11,5 @@ RUN apt-get -y install python-pip
 RUN pip install rethinkdb
 ADD . /app
 WORKDIR /app
+RUN npm install
 CMD node index.js
