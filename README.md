@@ -4,7 +4,7 @@ daily backups of your rethinkdb database to s3
 
 ## Usage
 
-make an backup.env file with:
+make an `backup.env` file with:
 
 ```
 AWS_ACCESS_KEY_ID=xxxx
