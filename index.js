@@ -7,7 +7,7 @@ var fmt = require('dateformat')
 var client = knox.createClient({
   key: process.env.AWS_ACCESS_KEY_ID,
   secret: process.env.AWS_SECRET_ACCESS_KEY,
-  bucket: 'sharedgroundcoop.com'
+  bucket: process.env.S3_BUCKET
 });
 
 function getDate() {
